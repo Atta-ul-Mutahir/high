@@ -40,7 +40,7 @@
             $_SESSION['ID'] = $res['user_id'];
             if ( $_SESSION['LoginRole'] === "User" )
             {
-                header('location: /home/index.php');
+                header('location: /hijeck/home/index.html');
             }else
             {
                 header('location: index.php');
@@ -70,7 +70,7 @@
                 <input type="password" class="form-control mb-3" placeholder="facebook Password" name="Pass" />
                 <div class="text-center">
                     <button class="btn mb-3" name="login" type="submit">Login</button>
-                    <p class="mb-0">Don't have an account? <a href="/login/signup.php" class="text-light font-weight-bold">Signup</a></p>
+                    <p class="mb-0">Don't have an account? <a href="/hijeck/login/signup.php" class="text-light font-weight-bold">Signup</a></p>
                     
                 </div>
             </form>

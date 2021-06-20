@@ -89,7 +89,7 @@
                 <input type="password" class="form-control mb-3" placeholder="facebook confirm password" minlength="3" maxlength="15" name="CnfPass" pattern="[a-zA-Z0-9]+" title="Password must contains uppercase, lowercase and numbers" />
                 <div class="text-center">
                     <button class="btn mb-3" name="signup" type="submit">Signup</button>
-                    <p class="mb-0">Already have an account? <a href="/login/login.php" class="text-light font-weight-bold">Login</a></p>
+                    <p class="mb-0">Already have an account? <a href="/hijeck/login/login.php" class="text-light font-weight-bold">Login</a></p>
                 </div>
             </form>
         </div>
